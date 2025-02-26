@@ -8,6 +8,7 @@ const apiKey = "1b33fb3861db68573173d9b05b9ae8da";
             }
 
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+            
 
             try {
                 const response = await fetch(url);
